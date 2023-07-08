@@ -25,12 +25,12 @@ table,th,td{
     border-radius: 5px;
     border: 0;
 }
+
 #search{
     margin: 29px 0;
     font-size: 20px;
     padding: 10px;
-    color: red;
-    background-color: rgba(0, 128, 0, 0.31);
+    background-color: rgba(0, 128, 0, 0.188);
     border: 0;
 }
 #edit{
@@ -48,4 +48,7 @@ table,th,td{
     border: 0;
     color: white;
     font-size: 15px;
+}
+#back,#edit,#delete:hover{
+    cursor: pointer;
 }
