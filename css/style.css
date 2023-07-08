@@ -50,3 +50,26 @@ input{
 #save,#btn1:hover{
     cursor: pointer;
 }
+@media(max-width:560px){
+    .container{
+        width: 90%;
+    }
+    #form{
+        width: 90%;
+        padding:10px;
+        margin: auto;
+        border-radius: 5px;
+        border: 1px solid #000;
+    }
+    h1{
+        font-size: 23px;
+        padding: 10px 0;
+    }
+    input{
+        width: 85%;
+        margin: 10px 0;
+    }
+    #btn1{
+        font-size: 20px;
+    }
+}
