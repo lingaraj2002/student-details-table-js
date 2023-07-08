@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+table{
+    width: 60%;
+    margin: auto;
+}
+table,th,td{
+    border-collapse: collapse;
+    border: 2px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+#back{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 9px 17px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 0;
+}
+#search{
+    margin: 29px 0;
+    font-size: 20px;
+    padding: 10px;
+    color: red;
+    background-color: rgba(0, 128, 0, 0.31);
+    border: 0;
+}
+#edit{
+    background-color: blue;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 0;
+    color: white;
+    font-size: 15px;
+}
+#delete{
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 0;
+    color: white;
+    font-size: 15px;
+}
